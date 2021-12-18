@@ -1,7 +1,7 @@
 applications:
 - name: AngularInCloudFoundry
   memory: 1G 
-  path: dist/AngularInCloudFoundry
+  path: dist/primeng
   random-route: false
   buildpacks:
   - staticfile_buildpack
