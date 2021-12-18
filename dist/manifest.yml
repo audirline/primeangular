@@ -1,0 +1,7 @@
+applications:
+- name: AngularInCloudFoundry
+  memory: 1G 
+  path: dist/AngularInCloudFoundry
+  random-route: false
+  buildpacks:
+  - staticfile_buildpack
